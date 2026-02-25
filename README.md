@@ -18,6 +18,7 @@ Login, Novel Management, Comment Management, Author Management, Invitation Code 
 
 News Management, Category Management, Order Management, User Management, Role Management, Menu Management, System Log Management, Personal Center, Password Modification
 
+
 II. Technologies Used
 Backend Technology Stack:
 
@@ -35,6 +36,8 @@ Shiro
 
 Redis
 
+
+
 Frontend Technology Stack:
 
 Thymeleaf
@@ -45,10 +48,13 @@ Html
 
 Ajax
 
+
+
 III. Environment Setup
 Basic Environment: IDEA/eclipse, JDK 1.8, Mysql 5.7 or higher, Maven 3.6, Redis 5.0, ngrok intranet penetration tool
 
 All projects and source code have been debugged and run without issues by myself. Remote debugging and operation support is available.
+
 
 IV. Page Screenshots
 1. Frontend Pages
@@ -89,6 +95,7 @@ IV. Page Screenshots
 ![contents](./picture/picture34.png)
 ![contents](./picture/picture35.png)
 
+
 V. Access Addresses
 Frontend Access Address: http://127.0.0.1:8090/
 Author Access Address: http://127.0.0.1:8090/author/index.html
@@ -98,6 +105,7 @@ Reader/Author Account/Password: +8613560421324/123456
 Backend Access Address: http://127.0.0.1/
 
 Administrator Account/Password: admin/admin
+
 
 VI. Deployment Guide
 Use Navicat or another tool to create a corresponding database in mysql, and execute the project's sql file;
@@ -110,6 +118,7 @@ modify the database configuration and redis configuration in novel-admin/src/mai
 
 Start the frontend project with novel-front/src/main/java/com/java2nb/novel/FrontNovelApplication.java
 Start the backend project with novel-admin/src/main/java/com/java2nb/AdminApplication.java
+
 
 VII. Project Structure
 text
