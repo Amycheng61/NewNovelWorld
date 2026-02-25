@@ -58,42 +58,6 @@ All projects and source code have been debugged and run without issues by myself
 
 IV. Page Screenshots
 1. Frontend Pages
-![contents](./picture/picture1.png)
-![contents](./picture/picture2.png)
-![contents](./picture/picture3.png)
-![contents](./picture/picture4.png)
-![contents](./picture/picture5.png)
-![contents](./picture/picture6.png)
-![contents](./picture/picture7.png)
-![contents](./picture/picture8.png)
-![contents](./picture/picture9.png)
-![contents](./picture/picture10.png)
-![contents](./picture/picture11.png)
-![contents](./picture/picture12.png)
-![contents](./picture/picture13.png)
-![contents](./picture/picture14.png)
-![contents](./picture/picture15.png)
-![contents](./picture/picture16.png)
-![contents](./picture/picture17.png)
-![contents](./picture/picture18.png)
-![contents](./picture/picture19.png)
-![contents](./picture/picture20.png)
-### 2、后台页面
-![contents](./picture/picture21.png)
-![contents](./picture/picture22.png)
-![contents](./picture/picture23.png)
-![contents](./picture/picture24.png)
-![contents](./picture/picture25.png)
-![contents](./picture/picture26.png)
-![contents](./picture/picture27.png)
-![contents](./picture/picture28.png)
-![contents](./picture/picture29.png)
-![contents](./picture/picture30.png)
-![contents](./picture/picture31.png)
-![contents](./picture/picture32.png)
-![contents](./picture/picture33.png)
-![contents](./picture/picture34.png)
-![contents](./picture/picture35.png)
 
 
 V. Access Addresses
@@ -123,9 +87,15 @@ Start the backend project with novel-admin/src/main/java/com/java2nb/AdminApplic
 VII. Project Structure
 text
 novel-plus -- Parent Project
+
 ├── novel-common -- Common Module
+
 ├── novel-front -- Frontend Portal & Author Backend
+
 ├── novel-crawl -- Crawler Module
+
 ├── novel-admin -- Management Backend
+
 └── templates -- Frontend Templates
+
 ```
