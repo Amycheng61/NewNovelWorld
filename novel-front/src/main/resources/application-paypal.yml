@@ -1,0 +1,5 @@
+paypal:
+  mode: sandbox
+  client:
+    app: Adv72xqYOc7OeUzqyM6-Tz5evWyPkjaC1ZwPLcQaH5nPgpOvhLiyqsZZJCLbMiZk1LxmAU5k8wplL8fh
+    secret: EIvSr71w1tJkbI2oSMuAK7xQp5fyvtiJ94OhEoQ-BYVByuOapEa9VvrItFQ65lT_MHDC7TTpI6EJ07Fi

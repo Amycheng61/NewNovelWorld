@@ -1,0 +1,12 @@
+#网站配置
+website:
+  #网站名
+  name: 爱看小说
+  #域名
+  domain: www.ainovel.com
+  #SEO关键词
+  keyword: ${website.name}
+  #SEO描述
+  description: ${website.name}
+  #联系QQ
+  qq:
