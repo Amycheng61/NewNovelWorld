@@ -13,7 +13,7 @@ jwt:
 #缓存管理密码
 cache:
   manager:
-    password: novel@20240602
+    password: ****@20240602
 
 
 # 防止XSS攻击
