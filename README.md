@@ -1,46 +1,57 @@
-## 基于Springboot的小说阅读网站系统(源代码+数据库)090
+Novel Reading Website System Based on Spring Boot (Source Code + Database) 090
 
-## 一、系统介绍
 
-本系统分为管理员、作家、读者三种角色
+I. System Introduction
+This system is divided into three roles: Administrator, Author, and Reader
 
-读者角色包含以下功能：
-- 登录、注册、小说推荐、作品检索、小说排行榜、小说阅读、小说评论、充值订阅、我的书架、个人中心、密码修改
+Reader Role includes the following functions:
 
-作家角色包含以下功能：
-- 包括读者的所有功能、小说发布、小说管理、章节管理
+Login, Registration, Novel Recommendations, Work Search, Novel Rankings, Novel Reading, Novel Comments, Recharge and Subscription, My Bookshelf, Personal Center, Password Modification
 
-管理员角色包含以下功能：
-- 登录、小说管理、评论管理、作家管理、邀请码管理、会员管理、会员反馈管理、小说推荐管理、网站信息管理、友情链接管理、
-- 新闻管理、类别管理、订单管理、用户管理。角色管理、菜单管理、系统日志管理、个人中心、密码修改
+Author Role includes the following functions:
 
-## 二、所用技术
+All functions available to Readers, plus Novel Publishing, Novel Management, Chapter Management
 
-后端技术栈：
+Administrator Role includes the following functions:
 
-- Springboot
-- Mybatis
-- Mysql
-- Jwt
-- SpringSecurity
-- Shiro
-- Redis
+Login, Novel Management, Comment Management, Author Management, Invitation Code Management, Member Management, Member Feedback Management, Novel Recommendation Management, Website Information Management, Friendly Link Management,
 
-前端技术栈：
+News Management, Category Management, Order Management, User Management, Role Management, Menu Management, System Log Management, Personal Center, Password Modification
 
-- Thymeleaf
-- Layui
-- Html
-- Ajax
+II. Technologies Used
+Backend Technology Stack:
 
-## 三、环境介绍
+Springboot
 
-基础环境 :IDEA/eclipse, JDK1.8, Mysql5.7及以上,Maven3.6, Redis5.0, 内网穿透工具ngrok
+Mybatis
 
-所有项目以及源代码本人均调试运行无问题 可支持远程调试运行
+Mysql
 
-## 四、页面截图
-### 1、前台页面
+Jwt
+
+SpringSecurity
+
+Shiro
+
+Redis
+
+Frontend Technology Stack:
+
+Thymeleaf
+
+Layui
+
+Html
+
+Ajax
+
+III. Environment Setup
+Basic Environment: IDEA/eclipse, JDK 1.8, Mysql 5.7 or higher, Maven 3.6, Redis 5.0, ngrok intranet penetration tool
+
+All projects and source code have been debugged and run without issues by myself. Remote debugging and operation support is available.
+
+IV. Page Screenshots
+1. Frontend Pages
 ![contents](./picture/picture1.png)
 ![contents](./picture/picture2.png)
 ![contents](./picture/picture3.png)
@@ -78,34 +89,34 @@
 ![contents](./picture/picture34.png)
 ![contents](./picture/picture35.png)
 
-## 五、浏览地址
-前台访问地址：http://127.0.0.1:8090/
-作家访问地址：http://127.0.0.1:8090/author/index.html
-- 读者/作家的账号/密码：+8613560421324/123456
+V. Access Addresses
+Frontend Access Address: http://127.0.0.1:8090/
+Author Access Address: http://127.0.0.1:8090/author/index.html
 
-后台访问地址：http://127.0.0.1/
-- 管理员账号/密码：admin/admin
+Reader/Author Account/Password: +8613560421324/123456
 
-## 六、部署教程
+Backend Access Address: http://127.0.0.1/
 
-1. 使用Navicat或者其它工具，在mysql中创建对应名称的数据库，并执行项目的sql文件；
+Administrator Account/Password: admin/admin
 
-2. 使用IDEA/Eclipse导入novel-plus项目，若为maven项目请选择maven，等待依赖下载完成；
+VI. Deployment Guide
+Use Navicat or another tool to create a corresponding database in mysql, and execute the project's sql file;
 
-3. 进入novel-common/src/main/resources/application-common-dev.yml 里面的数据库配置和redis配置,
-   修改novel-front/src/main/resources/application-dev.yml里面的文件路径配置和application-alipay.yml里面的支付宝沙箱配置,
-   修改novel-admin/src/main/resources/application-dev.yml里面的数据库配置和redis配置
+Import the novel-plus project using IDEA/Eclipse, select maven if it's a maven project, and wait for dependencies to download;
 
-4. novel-front/src/main/java/com/java2nb/novel/FrontNovelApplication.java 启动前台项目
-   novel-admin/src/main/java/com/java2nb/AdminApplication.java启动后台项目
+Go to novel-common/src/main/resources/application-common-dev.yml to modify the database configuration and redis configuration,
+modify the file path configuration in novel-front/src/main/resources/application-dev.yml and the Alipay sandbox configuration in application-alipay.yml,
+modify the database configuration and redis configuration in novel-admin/src/main/resources/application-dev.yml
 
-## 七、项目结构
+Start the frontend project with novel-front/src/main/java/com/java2nb/novel/FrontNovelApplication.java
+Start the backend project with novel-admin/src/main/java/com/java2nb/AdminApplication.java
 
-```
-novel-plus -- 父工程
-├── novel-common -- 通用模块
-├── novel-front -- 前台门户&作家后台
-├── novel-crawl -- 爬虫
-├── novel-admin -- 管理后台
-└── templates -- 前端模版
+VII. Project Structure
+text
+novel-plus -- Parent Project
+├── novel-common -- Common Module
+├── novel-front -- Frontend Portal & Author Backend
+├── novel-crawl -- Crawler Module
+├── novel-admin -- Management Backend
+└── templates -- Frontend Templates
 ```
